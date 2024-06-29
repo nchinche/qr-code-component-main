@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+body{
+  background-color:  hsl(212, 45%, 89%);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+.container{
+  width: 300px;
+  height: 500px;
+  background-color:  hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+  
+  
+}
+
+.container img{
+width: 270px;
+height: 290px;
+border-radius: 10px;
+}
+
+.container .detail{
+  width: 250px;
+  text-align: center;
+}
+
+.container h1{
+ 
+  font-size: 18px;
+  margin: 20px 0;
+  color:hsl(218, 44%, 22%) ;
+}
+
+.container p{
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+
+
+    .attribution { 
+      font-size: 15px; 
+      text-align: center; 
+    }
+
+
+    .attribution a {
+       color: hsl(228, 45%, 44%); 
+      }
+      
+    }
+
+
+    @media (max-width: 375px) {
+      
+      html,body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+
+      .attribution { 
+      font-size: 12px; 
+      text-align: center; 
+    }
+
+
+    .attribution a {
+       color: hsl(228, 45%, 44%); 
+      }
+
+    }
+
+
+
+    
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  <img src="images/image-qr-code.png" alt="">
+
+  <div class="detail">
+  <h1>Improve your front-end skills by building projects</h1>
+<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+</div>
+
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/nchinche">Nchinche Pascal</a>.
+  </div>
+</body>
+</html>
